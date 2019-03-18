@@ -1,0 +1,12 @@
+<p>
+  Hi, {{ user }}, Welcome to your dashboard!
+</p>
+
+<div>
+<h3>Student list</h3>
+  <ul>
+    <li *ngFor="let student of studentList">
+      <span>{{ student.userName }}</span>
+    </li>
+  </ul>
+</div>
